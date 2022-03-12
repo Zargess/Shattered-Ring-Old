@@ -1,0 +1,21 @@
+# Setting up namespace
+namespace = zarg_old_ring_setup
+
+### This populates the origin capitals with the appropriate districts and buildings
+
+planet_event = {
+	id = zarg_old_ring_setup.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				owner = { has_origin = zarg_origin_ring_empire }
+			}
+			zarg_cleanup_old_ring_homeworld = yes
+			zarg_setup_old_ring_homeworld = yes
+			#generate_start_pops = yes
+		}
+	}
+}

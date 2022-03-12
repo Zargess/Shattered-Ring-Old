@@ -1,9 +1,0 @@
-# Ring Empire
-part = {
-	location = 0
-	localization = "START_SCREEN_REMP"
-	
-	trigger = {
-		has_origin = origin_ring_empire
-	}
-}

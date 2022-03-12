@@ -1,0 +1,9 @@
+# Ring Empire
+part = {
+	location = 0
+	localization = "START_SCREEN_REMP"
+	
+	trigger = {
+		has_origin = zarg_origin_ring_empire
+	}
+}
