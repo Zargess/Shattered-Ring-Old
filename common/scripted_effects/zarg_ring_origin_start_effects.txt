@@ -94,7 +94,9 @@ zarg_setup_old_ring_homeworld = {
 		add_district_and_planet_size_if_needed_effect = {
 			district = district_rw_industrial
 		}
-		add_building = building_commercial_zone
+		add_district_and_planet_size_if_needed_effect = {
+			district = district_rw_commercial
+		}
 	}
 
 	if = {
